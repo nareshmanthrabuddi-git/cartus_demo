@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="1122" started-at="2021-06-29T11:02:42Z" finished-at="2021-06-29T11:02:43Z">
+    <groups>
+      <group name="Cartus_code">
+        <method signature="Cartus_code.TestCase()[pri:0, instance:Cartus_code@88d6f9b]" name="TestCase" class="Cartus_code"/>
+      </group> <!-- Cartus_code -->
+    </groups>
+    <test name="Command line test" duration-ms="1122" started-at="2021-06-29T11:02:42Z" finished-at="2021-06-29T11:02:43Z">
+      <class name="Cartus_code">
+        <test-method status="PASS" signature="TestCase()[pri:0, instance:Cartus_code@88d6f9b]" name="TestCase" duration-ms="1099" started-at="2021-06-29T16:32:42Z" finished-at="2021-06-29T16:32:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase -->
+      </class> <!-- Cartus_code -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

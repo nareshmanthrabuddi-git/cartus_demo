@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuite1,,,,2021-06-29 16:32:40,2021-06-29 16:32:49,8.308s,ERROR
+,,,,,,,
+Test Cases/Javascript_Code,,,,2021-06-29 16:32:41,2021-06-29 16:32:43,1.665s,PASSED
+tc = [Cartus_code],,,,2021-06-29 16:32:42,2021-06-29 16:32:42,0.001s,PASSED
+runTestNGTestClasses(tc),,,,2021-06-29 16:32:42,2021-06-29 16:32:43,1.520s,PASSED
+,,,,,,,
+Test Cases/test,,,,2021-06-29 16:32:43,2021-06-29 16:32:47,4.083s,ERROR
+"sResponse = sendRequest(findTestObject(""Object Repository/Postman/Test""))",,,,2021-06-29 16:32:44,2021-06-29 16:32:47,3.430s,PASSED
+println(statusCode),,,,2021-06-29 16:32:47,2021-06-29 16:32:47,0.014s,PASSED
+sRes = statusCode.toString(),,,,2021-06-29 16:32:47,2021-06-29 16:32:47,0.001s,PASSED
+"postman = ""
+pm.test(""Status code is 200"", function () {
+  pm.response.to.have.status(200);
+});
+
+pm.test(""Validate that the correct value key was selected"", function () {
+    pm.expect(url).to.eql(""http://postman-echo.com/get"");
+});
+""",,,,2021-06-29 16:32:47,2021-06-29 16:32:47,0.001s,PASSED
+utility.Utility.executeJavaScript(postman),,,,2021-06-29 16:32:47,2021-06-29 16:32:47,0.096s,ERROR
+,,,,,,,
+Test Cases/test1,,,,2021-06-29 16:32:47,2021-06-29 16:32:49,1.502s,PASSED
+"sResponse = sendRequest(findTestObject(""Object Repository/Postman/Post""))",,,,2021-06-29 16:32:48,2021-06-29 16:32:49,1.113s,PASSED
+println(bodyContent),,,,2021-06-29 16:32:49,2021-06-29 16:32:49,0.001s,PASSED
+"println(""status code = "" + statusCode)",,,,2021-06-29 16:32:49,2021-06-29 16:32:49,0.000s,PASSED
