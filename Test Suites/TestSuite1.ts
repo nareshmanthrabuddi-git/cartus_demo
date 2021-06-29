@@ -12,12 +12,6 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>7baaa077-0328-435a-8de3-79059a9dc64b</testSuiteGuid>
    <testCaseLink>
-      <guid>92da2748-3411-4f8e-9898-2f8c3aeda3f7</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Javascript_Code</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>1f9a95fd-70ff-429f-84d8-93e94dd9ad72</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
