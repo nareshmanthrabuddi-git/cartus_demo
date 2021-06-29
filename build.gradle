@@ -1,0 +1,35 @@
+plugins {
+  id 'java'
+  id "com.katalon.gradle-plugin" version "0.0.7"
+}
+
+repositories {
+  mavenCentral()
+}
+
+dependencies {
+  // sample dependencies
+  // rest-assured
+  // compile 'io.rest-assured:rest-assured:3.2.0'
+  // JsonPath
+  // compile 'io.rest-assured:json-path:3.2.0'
+  // XmlPath
+  // compile 'io.rest-assured:json-path:3.2.0'
+  // JSON Schema Validation
+  // compile 'io.rest-assured:json-schema-validator:3.2.0'
+  // define a BOM and its version
+       implementation(platform("com.squareup.okhttp3:okhttp-bom:4.9.0"))
+       compile 'org.testng:testng:6.9.10'
+    compile 'com.relevantcodes:extentreports:2.40.2'
+    compile 'org.apache.commons:commons-lang3:3.4'
+    compile 'org.slf4j:slf4j-api:1.7.18'
+    compile 'ch.qos.logback:logback-core:1.1.6'
+    compile 'ch.qos.logback:logback-classic:1.1.6'
+    compile 'com.sikulix:sikulixapi:1.1.0'
+    compile group: 'com.aventstack', name: 'extentreports', version: '3.1.2'
+    testCompile 'org.testng:testng:6.11'
+
+       // define any required OkHttp artifacts without version
+       implementation("com.squareup.okhttp3:okhttp")
+       implementation("com.squareup.okhttp3:logging-interceptor")
+}
